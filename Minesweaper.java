@@ -8,10 +8,8 @@ public class Minesweaper {
 
 	public static void main(String[] args) throws FileNotFoundException {
 
-		/*
-		 * read first line to figure out row col (first int n second int m) input comes
-		 * from input.txt Assumes java Minesweaper < input.txt > output.txt
-		 */
+		 // from input.txt Assumes java Minesweaper < input.txt > output.txt
+		 
 		ArrayList<char[][]> fields = loadPage();
 
 		ArrayList<char[][]> solutions = new ArrayList<char[][]>();
